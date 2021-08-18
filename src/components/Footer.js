@@ -13,15 +13,6 @@ export default function Footer() {
 				>
 					Imad{" "}
 				</a>
-				&amp;{" "}
-				<a
-					className="profile"
-					href="https://github.com/Md-Abdul-Hameed"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Hameed
-				</a>
 			</p>
 		</div>
 	);
