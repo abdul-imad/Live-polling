@@ -247,7 +247,7 @@ function SimpleCard(props) {
 	});
 
 	const classes = useStyles();
-	const url = `http://localhost:3000/poll/${props.id}`;
+	const url = `https://live-poll-app.netlify.app/poll/${props.id}`;
 	return (
 		<Card className={classes.root}>
 			<CardContent>
@@ -283,7 +283,7 @@ function SimpleCard(props) {
 				<div className={classes.share}>
 					<WhatsappIcon style={{ marginRight: "4px" }} size={20}></WhatsappIcon>
 					<WhatsappShareButton
-						title="Hey! This is an invitation to poll, you can participate using this link"
+						title="Hey! This is an invitation to poll, you can participate using this link:"
 						url={url}
 					>
 						Share on whatsapp
