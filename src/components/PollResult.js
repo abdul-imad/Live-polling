@@ -276,7 +276,7 @@ function SimpleCard(props) {
 			<div>
 				<div className={classes.share} style={{ backgroundColor: "#36B9FF" }}>
 					<TwitterIcon style={{ marginRight: "4px" }} size={20}></TwitterIcon>
-					<TwitterShareButton title="Share poll" url={props.id}>
+					<TwitterShareButton title="Share poll" url={url}>
 						Share on Twitter
 					</TwitterShareButton>
 				</div>
@@ -291,13 +291,13 @@ function SimpleCard(props) {
 				</div>
 				<div className={classes.share} style={{ backgroundColor: "#2CA5E0" }}>
 					<TelegramIcon style={{ marginRight: "4px" }} size={20}></TelegramIcon>
-					<TelegramShareButton title="Share poll" url={props.id}>
+					<TelegramShareButton title="Share poll" url={url}>
 						Share on Telegram
 					</TelegramShareButton>
 				</div>
 				<div className={classes.share} style={{ backgroundColor: "#2B5586" }}>
 					<LinkedinIcon style={{ marginRight: "4px" }} size={20}></LinkedinIcon>
-					<LinkedinShareButton title="Share poll" url={props.id}>
+					<LinkedinShareButton title="Share poll" url={url}>
 						Share on LinkedIn
 					</LinkedinShareButton>
 				</div>
